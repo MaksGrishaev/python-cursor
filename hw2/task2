@@ -1,0 +1,35 @@
+
+#Python 2.7
+
+mg@mg:~/Python-Cursor/hw2/venv2/bin$ source activate
+(venv2) mg@mg:~/Python-Cursor/hw2/venv2/bin$ python
+Python 2.7.15rc1 (default, Nov 12 2018, 14:31:15)
+[GCC 7.3.0] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print "Hello World"
+Hello World
+>>> exit()
+(venv2) mg@mg:~/Python-Cursor/hw2/venv2/bin$ deactivate
+mg@mg:~/Python-Cursor/hw2/venv3/bin$
+
+
+#Python 3.7
+
+mg@mg:~/Python-Cursor/hw2/venv3/bin$ source activate
+(venv3) mg@mg:~/Python-Cursor/hw2/venv3/bin$ python
+Python 3.7.1 (default, Oct 22 2018, 11:21:55)
+[GCC 8.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print "Hello World"
+  File "<stdin>", line 1
+    print "Hello World"
+                      ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print("Hello World")?
+>>> print("Hello World")
+Hello World
+>>> exit()
+(venv3) mg@mg:~/Python-Cursor/hw2/venv3/bin$ deactivate
+mg@mg:~/Python-Cursor/hw2/venv3/bin$
+
+
+

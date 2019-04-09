@@ -1,0 +1,11 @@
+$ python3.6 --version
+Python 3.6.7
+
+pip --version
+pip 18.1 from /usr/local/lib/python2.7/dist-packages/pip (python 2.7)
+
+pip3 --version
+pip 9.0.1 from /usr/lib/python3/dist-packages (python 3.6)
+
+$ virtualenv --version
+15.1.0
