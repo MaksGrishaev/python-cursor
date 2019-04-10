@@ -81,10 +81,12 @@ def multiple_ints_with_conversion(first_value: Any, second_value: Any) -> int:
     else:
         raise ValueError
     """
+    """
     try:
         int(first_value) and int(second_value)
     except ValueError:
         raise ValueError
+    """
     return int(first_value) * int(second_value)
 
 
@@ -101,10 +103,7 @@ def is_word_in_text(word: str, text: str) -> bool:
         is_word_in_text("Glad", "Nice to meet you ")
         >>> False
     """
-    if text.find(word) != -1:
-        return True
-    else:
-        return False
+    return text.find(word) != -1
 
 
 def some_loop_exercise() -> list:
