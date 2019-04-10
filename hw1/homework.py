@@ -4,6 +4,7 @@ This is a list of functions that should be completed.
 
 from typing import Any
 from typing import List
+from string import ascii_lowercase
 
 
 class OurAwesomeException(Exception):
@@ -141,10 +142,15 @@ def alphabet() -> dict:
         alphabet()
         >>> {"a": 1, "b": 2 ...}
     """
+
+    """
     alphabet_dict = {}
     for i in range(1, 27):
         alphabet_dict.update({i: chr(i + 96)})
     return alphabet_dict
+    """
+    return {ord(c) - 96: c for c in ascii_lowercase}
+
 
 def simple_sort(data: List[int]) -> List[list]:
     """
